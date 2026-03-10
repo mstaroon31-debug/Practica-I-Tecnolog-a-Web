@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: practica1Tecnologiasweb
+    name: practica1tecnologiasweb
     env: java
     buildCommand: "./mvnw clean package"
     startCommand: "java -jar target/*.jar"
