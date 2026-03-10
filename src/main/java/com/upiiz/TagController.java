@@ -25,97 +25,97 @@ public class TagController {
 
 
     @GetMapping("/h2")
-    public String inicio() {
+    public String etiquetaH2() {
         return "h2.html";
     }
 
     @GetMapping("/h3")
-    public String etiquetaP() {
+    public String etiquetaH3() {
         return "h3.html";
     }
 
     @GetMapping("/h4")
-    public String etiquetaH1() {
+    public String etiquetaH4() {
         return "h4.html";
     }
 
 
     @GetMapping("/h5")
-    public String inicio() {
+    public String etiquetaH5() {
         return "h5.html";
     }
 
     @GetMapping("/h6")
-    public String etiquetaP() {
+    public String etiquetaH6() {
         return "h6.html";
     }
 
     @GetMapping("/strong")
-    public String etiquetaH1() {
+    public String etiquetastrong() {
         return "strong.html";
     }
 
 
     @GetMapping("/head")
-    public String inicio() {
+    public String etiquetahead() {
         return "head.html";
     }
 
     @GetMapping("/body")
-    public String etiquetaP() {
+    public String etiquetabody() {
         return "body.html";
     }
 
     @GetMapping("/table")
-    public String etiquetaH1() {
+    public String etiquetatable() {
         return "table.html";
     }
 
 
     @GetMapping("/select")
-    public String inicio() {
+    public String etiquetaselect() {
         return "select.html";
     }
 
     @GetMapping("/button")
-    public String etiquetaP() {
+    public String etiquetabutton() {
         return "button.html";
     }
 
     @GetMapping("/section")
-    public String etiquetaH1() {
+    public String etiquetasection() {
         return "section.html";
     }
 
 
     @GetMapping("/article")
-    public String inicio() {
+    public String etiquetaarticulo() {
         return "article.html";
     }
 
     @GetMapping("/input")
-    public String etiquetaP() {
+    public String etiquetainput() {
         return "input.html";
     }
 
     @GetMapping("/th")
-    public String etiquetaH1() {
+    public String etiquetath() {
         return "th.html";
     }
 
 
     @GetMapping("/td")
-    public String inicio() {
+    public String etiquetatd() {
         return "td.html";
     }
 
     @GetMapping("/ul")
-    public String etiquetaP() {
+    public String etiquetaul() {
         return "ul.html";
     }
 
     @GetMapping("/form")
-    public String etiquetaH1() {
+    public String etiquetathfrom() {
         return "form.html";
     }
 
